@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Fashion Catalog</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            padding: 25px;
+            text-align: center;
+            background-color: #000;
+        }
+
+        header h1 {
+            letter-spacing: 5px;
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .container h2 {
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .catalog {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .product {
+            background-color: #222;
+            width: 220px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .product img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            margin: 15px 0 8px;
+        }
+
+        .product p {
+            color: #aaa;
+        }
+
+        .product button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            background-color: #000;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>BLACNA</h1>
+        <p>Dark Fashion Collection</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#catalog">Catalog</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <section class="container" id="home">
+        <h2>WELCOME TO BLACNA</h2>
+        <p style="text-align:center;">
+            Explore your style. Define your identity.
+        </p>
+    </section>
+
+    <section class="container" id="catalog">
+        <h2>OUR COLLECTION</h2>
+
+        <div class="catalog">
+
+            <div class="product">
+                <img src="https://placehold.co/300x350/333333/ffffff?text=Black+Shirt" alt="Black Shirt">
+                <h3>Black Oversized Shirt</h3>
+                <p>Rp 120.000</p>
+                <button>View Product</button>
+            </div>
+
+            <div class="product">
+                <img src="https://placehold.co/300x350/333333/ffffff?text=Streetwear" alt="Streetwear">
+                <h3>Streetwear Jacket</h3>
+                <p>Rp 250.000</p>
+                <button>View Product</button>
+            </div>
+
+            <div class="product">
+                <img src="https://placehold.co/300x350/333333/ffffff?text=Black+Pants" alt="Black Pants">
+                <h3>Black Cargo Pants</h3>
+                <p>Rp 180.000</p>
+                <button>View Product</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container" id="about">
+        <h2>ABOUT US</h2>
+        <p style="text-align:center;">
+            BLACNA is a fashion brand for people
+            who love dark and modern streetwear.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 BLACNA. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
